@@ -1,3 +1,4 @@
+
 function getSleepHours(day) {
   if (day === 'monday') {
     return 8;
@@ -27,17 +28,19 @@ function getIdealSleepHours() {
   // Returns the total number of ideal sleep hours  per week that the user picked
 }
 
-
 function calculateSleepDebt() {
 var acualSleepHours = getAcualSleepHours();
 var idealSleepHours = getIdealSleepHours();
  
-  if (acualSleepHours === idealSleepHours) {
-   console.log('You got exacly the amount of sleep you wanted'); 
-  } if (acualSleepHours < idealSleepHours); {
-        console.log('you got ' + (idealSleepHours - acualSleepHours) + ' hours less then your ideal sleep'); 	
-     else if (acualSleepHours > idealSleepHours); {
+ if (acualSleepHours === idealSleepHours) {
+   console.log('You got exacly the amount of sleep you wanted'); }
+  // If sleep is equal
+  if (acualSleepHours < idealSleepHours); {
+        console.log('you got ' + (idealSleepHours - acualSleepHours) + ' hours less sleep then is recommended'); 
+    // returns recommended sleep diffrence from user choice.
+  if (acualSleepHours > idealSleepHours); 
         console.log('You got ' + (acualSleepHours - idealSleepHours) + ' hours more sleep then you planned');
-     }}}
+    // returns sleep diffrence from user choice over recomended
+ }}
 
 calculateSleepDebt();
