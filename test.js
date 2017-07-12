@@ -1,16 +1,17 @@
 function getSleepHours(day) {
-  if (day === 'monday' {
+  if (day === 'monday') {
     return 8;
-   } else if (day === 'tuesday' {
+   } else if (day === 'tuesday') {
       return 8;
-   } else if (day === 'wensday' {
+   } else if (day === 'wensday') {
       return 8;
-   } else if (day === 'thursday' {
+   } else if (day === 'thursday') {
       return 8;
-   } else if (day === 'friday' {
+   } else if (day === 'friday') {
       return 8;
    } else if (day === 'saterday') {
-      retun 8;
+      return 8;
    } else if (day === 'sunday') {
       return 8;
    }
+}
