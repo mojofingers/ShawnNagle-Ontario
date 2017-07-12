@@ -9,8 +9,8 @@ function getSleepHours(day) {
       return 8;
    } else if (day === 'friday' {
       return 8;
-   } else if (day === 'saterday) {
+   } else if (day === 'saterday') {
       retun 8;
-   } else if (day === 'sunday) {
+   } else if (day === 'sunday') {
       return 8;
    }
