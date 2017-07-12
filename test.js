@@ -15,3 +15,6 @@ function getSleepHours(day) {
       return 8;
    }
 }
+function getAcualSleepHours() {
+  var idealHours = 7
+ return idealHourse * 7;
