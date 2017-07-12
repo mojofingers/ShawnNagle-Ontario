@@ -1,5 +1,16 @@
-var vacationSpots = ['China', 'jamacia', 'Austria'];
-
-for (var i = 0; i < vacationSpots.length; i++) {
-  console.log(vactionSpots[i]);
-     }
+function getSleepHours(day) {
+  if (day === 'monday' {
+    return 8;
+   } else if (day === 'tuesday' {
+      return 8;
+   } else if (day === 'wensday' {
+      return 8;
+   } else if (day === 'thursday' {
+      return 8;
+   } else if (day === 'friday' {
+      return 8;
+   } else if (day === 'saterday) {
+      retun 8;
+   } else if (day === 'sunday) {
+      return 8;
+   }
